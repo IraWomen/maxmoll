@@ -1,9 +1,42 @@
 <% var data = {
-  title: "Заголовок | Проект",
-  author: "Harrix"
+  title: "MaxMoll",
+  author: "Smirnova"
 }; %>
 <%= _.template(require('./../includes/header.html').default)(data) %>
 
-<div class="container">Первая страница.</div>
-
-<%= _.template(require('./../includes/footer.html').default)(data) %>
+<main class="main">
+  <section class="banner">
+<div class="banner__text">
+  <h2 class="banner__title">
+    <span></span>
+  </h2>
+  <ul class="list">
+    <li></li>
+    <li></li>
+  </ul>
+  <form action="" class="banner__callback">
+    <label for=""><input type="text"></label>
+    <label for=""><input type="text"></label>
+    <button></button>
+  </form>
+</div>
+  </section>
+  <section class="why">
+    <h3 class="why__title">
+      <span></span>
+    </h3>
+    <div class="toggle">
+      <button class="btn btn-primary"></button>
+      <button class="btn btn-outline-primary"></button>
+    </div>
+    <ul class="why">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <div class="image">
+      <img src="" alt="">
+    </div>
+  </section>
+</main>
